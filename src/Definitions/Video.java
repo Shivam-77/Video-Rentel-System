@@ -15,13 +15,32 @@ public class Video
     {
         return videoName;
     }
+    public boolean isCheckOut()
+    {
+        return checkOut;
+    }
 
-//    this will set a value of checkout true or false.
+    public int getRating()
+    {
+        return rating;
+    }
+    //    this will set a value of checkout true or false.
 //    if true then customer has invented
 
+
+    public void setRating(int rating)
+    {
+        this.rating = rating;
+    }
 
     public void setCheckOut(boolean checkOut)
     {
         this.checkOut = checkOut;
     }
+
+    public void setVideoName(String videoName){
+        this.videoName=videoName;
+    }
+
+
 }
