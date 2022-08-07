@@ -7,6 +7,12 @@ public class Video
     private String videoName;
     private boolean checkOut;
     private int rating;
+//    Constructor
+    public Video(String videoName,boolean checkOut, int rating){
+        this.videoName=videoName;
+        this.checkOut=checkOut;
+        this.rating=rating;
+    }
 
 //    Member functions
 
@@ -28,19 +34,19 @@ public class Video
 //    if true then customer has invented
 
 
-    public void setRating(int rating)
-    {
-        this.rating = rating;
-    }
-
-    public void setCheckOut(boolean checkOut)
-    {
-        this.checkOut = checkOut;
-    }
-
-    public void setVideoName(String videoName){
-        this.videoName=videoName;
-    }
+//    public void setRating(int rating)
+//    {
+//        this.rating = rating;
+//    }
+//
+//    public void setCheckOut(boolean checkOut)
+//    {
+//        this.checkOut = checkOut;
+//    }
+//
+//    public void setVideoName(String videoName){
+//        this.videoName=videoName;
+//    }
 
 
 }
