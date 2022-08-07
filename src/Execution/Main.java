@@ -24,6 +24,7 @@ public class Main
             System.out.println("No one objects are  Equals");
         }
 
+        System.out.println(vid.getClass().getName()+" "+vid1.getClass().getName());
 
 
 
