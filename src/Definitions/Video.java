@@ -49,7 +49,7 @@ public class Video
 //    }
 public String toString(){
         return String.format(
-                "Video Name %s,Video rating %d and ischeckout %b",getVideoName(),getRating(),isCheckOut()
+                "Video Name %s,Video rating %d and Is video available %b",getVideoName(),getRating(),isCheckOut()
         );
 }
 
