@@ -13,7 +13,16 @@ public class Video
         this.checkOut=checkOut;
         this.rating=rating;
     }
-
+    public void  doCheckOut(){
+            if(!checkOut){
+                setCheckOut(true);
+            }
+    }
+    public void toReturn(){
+        if(checkOut){
+            setCheckOut(false);
+        }
+    }
 //    Member functions
 
 //    This method returns video name
@@ -34,19 +43,19 @@ public class Video
 //    if true then customer has invented
 
 
-//    public void setRating(int rating)
-//    {
-//        this.rating = rating;
-//    }
-//
-//    public void setCheckOut(boolean checkOut)
-//    {
-//        this.checkOut = checkOut;
-//    }
-//
-//    public void setVideoName(String videoName){
-//        this.videoName=videoName;
-//    }
+    public void setRating(int rating)
+    {
+        this.rating = rating;
+    }
+
+    public void setCheckOut(boolean checkOut)
+    {
+        this.checkOut = checkOut;
+    }
+
+    public void setVideoName(String videoName){
+        this.videoName=videoName;
+    }
 public String toString(){
         return String.format(
                 "Video Name %s,Video rating %d and Is video available %b",getVideoName(),getRating(),isCheckOut()
