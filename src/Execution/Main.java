@@ -11,5 +11,7 @@ public class Main
         System.out.println(vid.getRating());
 
 
+
+
     }
 }
