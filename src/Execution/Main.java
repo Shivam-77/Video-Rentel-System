@@ -10,6 +10,7 @@ public class Main
         System.out.println(vid.getVideoName());
         System.out.println(vid.getRating());
         System.out.println(vid.isCheckOut());
+        System.out.println(vid.toString());
 
 
 

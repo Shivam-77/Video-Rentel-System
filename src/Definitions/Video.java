@@ -47,6 +47,11 @@ public class Video
 //    public void setVideoName(String videoName){
 //        this.videoName=videoName;
 //    }
+public String toString(){
+        return String.format(
+                "Video Name %s,Video rating %d and ischeckout %b",getVideoName(),getRating(),isCheckOut()
+        );
+}
 
 
 }
